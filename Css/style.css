@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color_07101D:#07101D;
+    --color_FF3C00:#FF3C00;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: kalameh;
+    background-color: var(--color_07101D);
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
+}
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/WebFonts/_Woff/KalamehWeb-Regular.woff') format('woff');
+}
+
+.text_FF3C00{
+    color: var(--color_FF3C00);
+}
+.bg_FF3C00{
+    background-color: var(--color_FF3C00);
+}
+
+@media screen and (max-width:991.98px) {
+    .bg_dark_md{
+        background-color: var(--bs-secondary-color);
+    }
+}
