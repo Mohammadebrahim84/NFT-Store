@@ -1,52 +1,94 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root
+{
     --color_07101D:#07101D;
     --color_FF3C00:#FF3C00;
 }
 
-a{
+a
+{
     text-decoration: none;
 }
 
-body{
+body
+{
     font-family: kalameh;
     background-color: var(--color_07101D);
 }
 
-@font-face {
+@font-face 
+{
     font-family: kalameh;
     font-style: normal;
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
 }
-@font-face {
+@font-face 
+{
     font-family: kalameh;
     font-style: normal;
     font-weight: bold;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Bold.woff') format('woff');
 }
 
-@font-face {
+@font-face 
+{
     font-family: kalameh;
     font-style: normal;
     font-weight: normal;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Regular.woff') format('woff');
 }
 
-.text_FF3C00{
+header::before
+{
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#3D0D58 38%,#070F1C 0);
+    position: absolute;
+    filter: blur(74px);
+    opacity: 0.4;
+    right: -274px;
+    top: -273px;
+    z-index: -1;
+}
+.text_FF3C00
+{
     color: var(--color_FF3C00);
 }
-.bg_FF3C00{
+.border_FF3C00
+{
+    border-color: var(--color_FF3C00) !important;
+}
+.bg_FF3C00
+{
     background-color: var(--color_FF3C00);
 }
+.title_main_header
+{
+    font-size: 4rem;
+}
 
-@media screen and (max-width:991.98px) {
-    .bg_dark_md{
+@media screen and (max-width:991.98px) 
+{
+    .bg_dark_md
+    {
         background-color: var(--bs-secondary-color);
     }
+}
+
+.w_70
+{
+    width: 70%;
+}
+
+.bg_gradient_main_site
+{
+    background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
 }
