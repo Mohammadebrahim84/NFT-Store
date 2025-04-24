@@ -1,4 +1,5 @@
 *
+
 {
     margin: 0;
     padding: 0;
@@ -29,6 +30,7 @@ body
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
 }
+
 @font-face 
 {
     font-family: kalameh;
@@ -45,6 +47,29 @@ body
     src: url('../font/WebFonts/_Woff/KalamehWeb-Regular.woff') format('woff');
 }
 
+
+@font-face 
+{
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
+}
+@font-face 
+{
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
+}
+@font-face 
+{
+    font-family: kalameh;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+}
+
 header::before
 {
     content: '';
@@ -58,6 +83,19 @@ header::before
     top: -273px;
     z-index: -1;
 }
+header::after
+{
+    content: '';
+    background-image: url('../img/Group\ 1.png');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
 .text_FF3C00
 {
     color: var(--color_FF3C00);
@@ -81,14 +119,72 @@ header::before
     {
         background-color: var(--bs-secondary-color);
     }
+    header::before 
+    {
+        width: 30%;
+        height: 46%;
+        right: 70%;
+        top: 0;
+    }
+    header::after
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600.98px) 
+{
+    .title_main_header
+    {
+       font-size: 2.5rem;
+    }
 }
 
 .w_70
 {
     width: 70%;
 }
-
+.search_form_header
+{
+    height: 68px;
+}
+.search_form_header button
+{
+    right: 8px;
+    top: 25%;
+}
 .bg_gradient_main_site
 {
     background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
+}
+.main_img_header::before,.main_img_header::after
+{
+    content: '';
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.main_img_header::before
+{
+    background-image: url('../img/Path\ \(1\).png');
+    width: 45px;
+    height: 81px;
+    top: 4rem;
+    right: 5rem;
+}
+.main_img_header::after
+{
+    background-image: url('../img/scribble\ final\ version-02\ \(2\).png');
+    width: 72px;
+    height: 57px;
+    bottom: 3rem;
+    left: 2rem;
+}
+.count_user_site
+{
+    width: 298px;
+    height: 79px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.3);
+    bottom: 4rem;
+    right: 3rem;
 }

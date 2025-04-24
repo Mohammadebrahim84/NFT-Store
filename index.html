@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Store</title>
-    <link rel="stylesheet" href="Css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
     <header>
         <nav class="navbar navbar-expand-lg mt-3">
             <div class="container">
@@ -60,12 +61,12 @@
 
         <div class="container mt-5">
             <div class="row">
-                <div class="col-7">
+                <div class="col-lg-7 col-12">
                     <div>
-                        <p class="text-light fw-light fs-4">
+                        <p class="text-light fw-light fs-4 text-center text-lg-start">
                             بازار جهانی توکن‌های غیرمثلی بر بستر بلاکچین پلیگان
                         </p>
-                        <h1 class="fw-bold title_main_header my-5">
+                        <h1 class="fw-bold title_main_header text-center text-lg-start my-5">
                             <span class="text-light">
                                 دنیای NFT های 
                             </span>
@@ -73,25 +74,44 @@
                                 شگفت انگیز
                             </span>
                         </h1>
-                        <p class="text-secondary fw-light fs-3">
+                        <div class="main_img_header position-relative d-lg-none">
+                       
+                            <img src="img/header_img.png" class="w-100" alt="">
+                            <div class="count_user_site position-absolute rounded-4 d-flex align-items-center justify-content-between px-4">
+                                <img src="img/Group 117.png" alt="">
+                                <div class="text-light fw-bold ">
+                                    <span class="fs-5">+500</span>
+                                    <span class="fs-5">هنرمند</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-secondary fw-light fs-3 text-center text-lg-start">
                             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است      
                         </p>
                     </div>
-                    <div class="d-flex gap-3 mt-5">
-                        <form action="" class="border_FF3C00 border rounded-pill p-4 w-50">
-                            <button class="border-0 bg-transparent me-2">
+                    <div class="d-flex gap-3 mt-5 justify-content-center">
+                        <form action="" class="border_FF3C00 border d-none d-lg-block rounded-pill position-relative w-50 search_form_header ps-5">
+                            <button class="border-0 bg-transparent me-2 position-absolute">
                                 <img src="img/searchnormal1.png" alt="">
                             </button>
-                            <input type="text" class="bg-transparent border-0 fs-4 fw-medium" placeholder="جستجو NFT ها و هنرمندان">
+                            <input type="text" class="bg-transparent w-100 h-100 border-0 fs-4 fw-medium" placeholder="جستجو NFT ها و هنرمندان">
                         </form>
-                        <a href="#" class="w-50 bg_gradient_main_site text-light fw-bold fs-4 text-center rounded-pill py-4">
+                        <a href="#" class="w-50 py-3 bg_gradient_main_site text-light fw-bold fs-4 text-center rounded-pill d-flex align-items-center justify-content-center">
                             دریافت مشاوره رایگان
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div>
+                <div class="col-lg-5 col-12 d-none d-lg-block">
+                    <div class="main_img_header position-relative">
+                       
                         <img src="img/header_img.png" class="w-100" alt="">
+                        <div class="count_user_site position-absolute rounded-4 d-flex align-items-center justify-content-between px-4">
+                            <img src="img/Group 117.png" alt="">
+                            <div class="text-light fw-bold ">
+                                <span class="fs-5">+500</span>
+                                <span class="fs-5">هنرمند</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -99,7 +119,8 @@
     </header>
 
 
+ 
 
-    <script src="Javascript/bootstrap.bundle.min.js"></script>
+    <script src="Javascript/bootstrap.bundle.min.js"></script>   
 </body>
 </html>
