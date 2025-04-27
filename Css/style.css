@@ -1,5 +1,4 @@
 *
-
 {
     margin: 0;
     padding: 0;
@@ -17,20 +16,19 @@ a
     text-decoration: none;
 }
 
-
 body
 {
     font-family: kalameh;
     background-color: var(--color_07101D);
 }
 
-@font-face {
+@font-face 
+{
     font-family: kalameh;
     font-style: normal;
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
 }
-
 @font-face 
 {
     font-family: kalameh;
@@ -55,6 +53,7 @@ body
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
 }
+
 @font-face 
 {
     font-family: kalameh;
@@ -62,12 +61,21 @@ body
     font-weight: bold;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
 }
+
 @font-face 
 {
     font-family: kalameh;
     font-style: normal;
     font-weight: normal;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: Gilroy_Bold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../font/WebFonts/_Woff/Gilroy-Bold.woff') format('woff');
 }
 
 header::before
@@ -101,62 +109,47 @@ header::after
 {
     color: var(--color_FF3C00);
 }
+
 .border_FF3C00
 {
     border-color: var(--color_FF3C00) !important;
 }
+
 .bg_FF3C00
 {
     background-color: var(--color_FF3C00);
 }
+
 .title_main_header
 {
     font-size: 4rem;
 }
 
-@media screen and (max-width:991.98px) 
-{
-    .bg_dark_md{
-        background-color: var(--bs-secondary-color);
-    }
-    header::before 
-    {
-        width: 30%;
-        height: 46%;
-        right: 70%;
-        top: 0;
-    }
-    header::after
-    {
-        display: none;
-    }
-}
-@media screen and (max-width:600.98px) 
-{
-    .title_main_header{
-       font-size: 2.5rem;
-    }
-}
+
 
 .w_70
-
 {
     width: 70%;
 }
+
 .search_form_header
 {
     height: 68px;
 }
+
 .search_form_header button
 {
     right: 8px;
     top: 25%;
 }
+
 .bg_gradient_main_site
 {
     background-image: linear-gradient(to right,#7011AD,#BC0505,#FC630F);
 }
-.main_img_header::before,.main_img_header::after{
+
+.main_img_header::before,.main_img_header::after
+{
     content: '';
     position: absolute;
     background-repeat: no-repeat;
@@ -177,6 +170,7 @@ header::after
     bottom: 3rem;
     left: 2rem;
 }
+
 .count_user_site
 {
     width: 298px;
@@ -199,6 +193,8 @@ header::after
 
 }
 
+
+
 .wallet_box_3
 {
     background-image: linear-gradient(to right bottom,#07101D,#760AFF);
@@ -211,31 +207,38 @@ header::after
 
 }
 
-.wallet_box_5{
+.wallet_box_5
+{
     background-image: linear-gradient(to right bottom,#07101D,#FFBB0D);
 
 }
+
 .wallet_box_6
 {
     background-image: linear-gradient(to right bottom,#07101D,#FC280C);
 
 }
+
 .wallet_box_2::after
 {
     border-top: 1px solid #00D1FF;
 }
+
 .wallet_box_3::after
 {
     border-top: 1px solid #760AFF;
 }
+
 .wallet_box_4::after
 {
     border-top: 1px solid #FE007A;
 }
+
 .wallet_box_5::after
 {
     border-top: 1px solid #FFBB0D;
 }
+
 .wallet_box_6::after
 {
     border-top: 1px solid #FC280C;
@@ -267,10 +270,56 @@ header::after
 
 }
 
+.box_hot_bids
+{
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.img_hot_bids > div
+{
+    top: 1.8rem;
+    left: 2.4rem;
+
+}
+
+
+.bg_blur
+{
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.hearet_icon_hot_bids
+{
+    width: 58px;
+    height: 58px;
+   
+}
+
+.text_time_hot_bids
+{
+    width: 150px;
+    height: 58px;
+    font-size: 1.5rem;
+    font-family: Gilroy_Bold;
+}
+.Ellipse_2
+{
+  width: 952px;
+  height: 991px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -55%;
+  left: -15%;
+  z-index: -1;
+  filter: blur(50px);
+  background: radial-gradient(62.37% 62.37% at 50.00% 50.00%, rgba(8, 164, 117, 0.10) 28.57%, rgba(7, 15, 28, 0.00) 100%);
+ 
+}
 
 @media screen and (max-width:991.98px) 
 {
-    .bg_dark_md{
+    .bg_dark_md
+    {
         background-color: var(--bs-secondary-color);
     }
     header::before 
@@ -280,16 +329,33 @@ header::after
         right: 70%;
         top: 0;
     }
-    header::after
-    {
+    header::after{
         display: none;
     }
+    .Ellipse_2{
+      width: 551px;
+      height: 574px;
+      bottom: 55%;
+      left: 65%;
+    }
 }
+
 @media screen and (max-width:600.98px) 
 {
-    
     .title_main_header
     {
        font-size: 2.5rem;
     }
+    .text_time_hot_bids
+    {
+        width: 120px;
+        height: 34px;
+        font-size: 0.8rem;
+    }
+    .hearet_icon_hot_bids 
+    {
+        width: 31px;
+        height: 31px;
+    }
+    
 }
