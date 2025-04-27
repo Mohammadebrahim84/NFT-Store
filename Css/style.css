@@ -29,6 +29,7 @@ body
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Black.woff') format('woff');
 }
+
 @font-face 
 {
     font-family: kalameh;
@@ -36,6 +37,7 @@ body
     font-weight: bold;
     src: url('../font/WebFonts/_Woff/KalamehWeb-Bold.woff') format('woff');
 }
+
 
 @font-face 
 {
@@ -53,7 +55,6 @@ body
     font-weight: 900;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
 }
-
 @font-face 
 {
     font-family: kalameh;
@@ -61,7 +62,6 @@ body
     font-weight: bold;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
 }
-
 @font-face 
 {
     font-family: kalameh;
@@ -69,7 +69,6 @@ body
     font-weight: normal;
     src: url('../font/WebFonts/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
 }
-
 @font-face 
 {
     font-family: Gilroy_Bold;
@@ -91,6 +90,7 @@ header::before
     top: -273px;
     z-index: -1;
 }
+
 
 header::after
 {
@@ -154,6 +154,7 @@ header::after
     position: absolute;
     background-repeat: no-repeat;
 }
+
 .main_img_header::before
 {
     background-image: url('../img/Path\ \(1\).png');
@@ -162,6 +163,8 @@ header::after
     top: 4rem;
     right: 5rem;
 }
+
+
 .main_img_header::after
 {
     background-image: url('../img/scribble\ final\ version-02\ \(2\).png');
@@ -193,8 +196,6 @@ header::after
 
 }
 
-
-
 .wallet_box_3
 {
     background-image: linear-gradient(to right bottom,#07101D,#760AFF);
@@ -206,7 +207,6 @@ header::after
     background-image: linear-gradient(to right bottom,#07101D,#FE007A);
 
 }
-
 .wallet_box_5
 {
     background-image: linear-gradient(to right bottom,#07101D,#FFBB0D);
@@ -274,13 +274,13 @@ header::after
 {
     background-color: rgba(255, 255, 255, 0.10);
 }
+
 .img_hot_bids > div
 {
     top: 1.8rem;
     left: 2.4rem;
 
 }
-
 
 .bg_blur
 {
@@ -302,6 +302,7 @@ header::after
     font-size: 1.5rem;
     font-family: Gilroy_Bold;
 }
+
 .Ellipse_2
 {
   width: 952px;
@@ -329,10 +330,12 @@ header::after
         right: 70%;
         top: 0;
     }
-    header::after{
+    header::after
+    {
         display: none;
     }
-    .Ellipse_2{
+    .Ellipse_2
+    {
       width: 551px;
       height: 574px;
       bottom: 55%;
