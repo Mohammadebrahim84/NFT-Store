@@ -14,4 +14,4 @@ Welcome to the **NFT Store**! This is a simple and stylish online store designed
 - **HTML5**: Structure of the web pages.
 - **CSS3**: Styling and layout.
 - **JavaScript**: Functionality for dynamic content and interactions.
-- **Bootstrap**: Frontend framework for a responsive layout and components.
+- **Bootstrap**: Frontend framework for a responsive layout and components....
